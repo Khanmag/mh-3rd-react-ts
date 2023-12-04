@@ -1,15 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {ListItem} from './App';
-import Qwerty from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Qwerty from "./App";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
-  // <React.StrictMode>
-    <Qwerty />
-  // </React.StrictMode>
+  <React.StrictMode>
+  <Qwerty />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0 10px;
+  justify-content: space-around;
+  align-items: center;
+  transition-duration: 0.2s;
+  position: relative;
+}
+.container > * {
+  width: 30%;
+}
+.container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) inset;
+}
+
+.container > button {
+  content: "";
+  background-image: url("https://static.tildacdn.com/tild6334-3535-4235-b166-623837316433/purchasing-icon-6.jpg");
+  /* background-color: red; */
+  position: absolute;
+  right: -60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-position: center;
+  background-size: 100%;
+  border: none;
+  cursor: pointer;
+}
+.container > button:active {
+  transform: scale(0.95);
+}
