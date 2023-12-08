@@ -31,5 +31,5 @@ export type ProductItemType = {
   id: number;
   name: string;
   price: number;
-  count: number | null;
+  count: number;
 };
