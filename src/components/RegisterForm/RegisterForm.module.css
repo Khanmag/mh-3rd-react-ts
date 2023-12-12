@@ -1,0 +1,37 @@
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  max-width: 400px;
+}
+.container > label {
+  display: flex;
+  flex-direction: column;
+}
+.container button {
+  align-self: end;
+}
+.modal {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: beige;
+  border-radius: 30px;
+  top: calc(50vh - 50px);
+  left: calc(50vw - 100px);
+  padding: 20px;
+}
+.modal_wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(128, 128, 128, 0.744);
+}

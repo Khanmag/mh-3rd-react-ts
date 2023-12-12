@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./ProductItem.module.css";
+
 type ProductItemProps = {
   id: number;
   name: string;
